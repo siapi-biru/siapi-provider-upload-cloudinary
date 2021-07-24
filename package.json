@@ -1,0 +1,34 @@
+{
+  "name": "siapi-provider-upload-cloudinary",
+  "version": "3.6.5",
+  "description": "Cloudinary provider for siapi upload",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "cloudinary": "^1.25.1",
+    "into-stream": "^5.1.0"
+  },
+  "peerDependencies": {
+    "siapi-plugin-upload": "github:siapi-biru/siapi-plugin-upload#3.6.5"
+  },
+  "siapi": {
+    "isProvider": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
