@@ -11,7 +11,7 @@
     "into-stream": "^5.1.0"
   },
   "peerDependencies": {
-    "siapi-plugin-upload": "github:siapi-biru/siapi-plugin-upload#3.6.5"
+    "siapi-plugin-upload": "github:siapi-biru/siapi-plugin-upload"
   },
   "siapi": {
     "isProvider": true
